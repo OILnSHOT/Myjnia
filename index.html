@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta name="author" content="Oliwer Bartkowiak">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+        <header>
+            <h1>Myjnia ręczna <span>błysk</span></h1>
+        </header>
+        <li>
+            <ul><a href="#">Home</a></ul>
+            <ul><a href="#">Cennik</a></ul>
+        </li>
+    </nav>
+        <main>
+            <header>
+        <h2>Oblicz koszt usługi</h2>
+     </header>
+             Podaj imię: <input name="imie" type="text" placeholder="Wpisz swoje imię" required>
+    <fieldset>
+       <legend>Usługa</legend>
+              Myscie zewnętrzne 30 zl <input type="checkbox">
+              Suszenie 10 zl <input type="checkbox">
+              Woskowanie 15 zl <input type="checkbox">
+              Odkurzanie 10 zl <input type="checkbox">
+</fieldset>
+<fieldset>
+     <legend>Rodzaj pojazdu</legend>
+      <select>
+           <option selected>Brak</option>
+           <option>Mały (+45%)</option>
+           <option>Średni (+10%)</option>
+           <option>Van (+20%)</option>
+           <option>Bus (+45%)</option>
+      </select>
+</fieldset>
+<fieldset>
+      <legend>Karta stałego klienta</legend>
+        <select>
+            Brak <input type="radio">
+            Srebrna (-5%) <input type="radio">
+            Złota (-15%) <input type="radio">
+        </select>
+</fieldset>
+         <button>Wyczyść</button>
+         <button>Oblicz</button>
+         <span>Koszt usługi</span>
+         <div class="img">
+             <img src="hand_m.jpg">
+         </div>
+</main>
+        <aside>
+<h3>Rezerwacja na godzinę</h3>
+<p>Rezerwuj termin mycia samochodu. Masz mało czasu? Nie lubisz czekać? Zarezerwuj mycie pojazdu na konkretną godzinę</p>
+        </aside>
+        <footer>
+            <span>Oliwer Bartkowiak</span> kl.2P
+        </footer>
+    </div>
+</body>
+</html>
