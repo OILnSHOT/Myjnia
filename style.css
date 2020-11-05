@@ -9,6 +9,7 @@ font-family: sans-serif;
 }
 .container{
     width: 100%;
+    margin:auto;
 }
 nav{
     display: flex;
@@ -44,9 +45,36 @@ li ul:nth-child(2){
 .title{
     text-transform: uppercase;
 }
-header{
+nav header{
     text-transform: uppercase;
+    display: flex;
+    flex-basis: 60%;
+    justify-content: center;
 }
-header::first-letter{
-    font-size: 30px;
-}   
+nav header::first-letter{
+    font-size: 40px;
+}            
+main{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 60%;
+    flex:wrap;
+}      
+
+aside{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
